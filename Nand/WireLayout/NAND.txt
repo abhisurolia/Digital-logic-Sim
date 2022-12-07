@@ -1,0 +1,68 @@
+{
+    "serializableWires": [
+        {
+            "parentChipIndex": 0,
+            "parentChipOutputIndex": 0,
+            "childChipIndex": 3,
+            "childChipInputIndex": 0,
+            "anchorPoints": [
+                {
+                    "x": -7.243164539337158,
+                    "y": 1.2313886880874634
+                },
+                {
+                    "x": -3.279778003692627,
+                    "y": 1.0796942710876465
+                }
+            ]
+        },
+        {
+            "parentChipIndex": 1,
+            "parentChipOutputIndex": 0,
+            "childChipIndex": 3,
+            "childChipInputIndex": 1,
+            "anchorPoints": [
+                {
+                    "x": -7.243164539337158,
+                    "y": 0.35013866424560549
+                },
+                {
+                    "x": -3.279778003692627,
+                    "y": 0.8216943144798279
+                }
+            ]
+        },
+        {
+            "parentChipIndex": 3,
+            "parentChipOutputIndex": 0,
+            "childChipIndex": 4,
+            "childChipInputIndex": 0,
+            "anchorPoints": [
+                {
+                    "x": -2.3732781410217287,
+                    "y": 0.9506943225860596
+                },
+                {
+                    "x": 1.3875832557678223,
+                    "y": 0.9441664814949036
+                }
+            ]
+        },
+        {
+            "parentChipIndex": 4,
+            "parentChipOutputIndex": 0,
+            "childChipIndex": 2,
+            "childChipInputIndex": 0,
+            "anchorPoints": [
+                {
+                    "x": 2.2940831184387209,
+                    "y": 0.9441664814949036
+                },
+                {
+                    "x": 7.243164539337158,
+                    "y": 1.0551390647888184
+                }
+            ]
+        }
+    ]
+}

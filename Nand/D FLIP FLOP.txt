@@ -1,0 +1,116 @@
+{
+    "name": "D FLIP FLOP",
+    "creationIndex": 9,
+    "colour": {
+        "r": 0.19904769957065583,
+        "g": 0.5101898908615112,
+        "b": 0.6698113083839417,
+        "a": 1.0
+    },
+    "nameColour": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "componentNameList": [
+        "SIGNAL IN",
+        "SIGNAL OUT",
+        "DATA LATCH",
+        "NOT"
+    ],
+    "savedComponentChips": [
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 1.8537,
+            "inputPins": [],
+            "outputPinNames": [
+                "DATA "
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 0.8904,
+            "inputPins": [],
+            "outputPinNames": [
+                "CLOCK"
+            ]
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": 1.1458,
+            "inputPins": [
+                {
+                    "name": "OUTPUT",
+                    "parentChipIndex": 3,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": []
+        },
+        {
+            "chipName": "DATA LATCH",
+            "posX": 0.174,
+            "posY": 0.9427,
+            "inputPins": [
+                {
+                    "name": "DATA",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "STORE",
+                    "parentChipIndex": 1,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "OUTPUT"
+            ]
+        },
+        {
+            "chipName": "DATA LATCH",
+            "posX": -3.0811,
+            "posY": 2.4745,
+            "inputPins": [
+                {
+                    "name": "DATA",
+                    "parentChipIndex": 0,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "STORE",
+                    "parentChipIndex": 5,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "OUTPUT"
+            ]
+        },
+        {
+            "chipName": "NOT",
+            "posX": -4.9262,
+            "posY": 1.4881,
+            "inputPins": [
+                {
+                    "name": "IN",
+                    "parentChipIndex": 1,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "OUT"
+            ]
+        }
+    ]
+}

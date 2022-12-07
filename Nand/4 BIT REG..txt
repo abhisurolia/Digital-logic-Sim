@@ -1,0 +1,245 @@
+{
+    "name": "4 BIT REG.",
+    "creationIndex": 11,
+    "colour": {
+        "r": 0.7452830076217651,
+        "g": 0.5733616948127747,
+        "b": 0.10194911062717438,
+        "a": 1.0
+    },
+    "nameColour": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "componentNameList": [
+        "SIGNAL IN",
+        "SIGNAL OUT",
+        "REGISTER"
+    ],
+    "savedComponentChips": [
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 2.3643,
+            "inputPins": [],
+            "outputPinNames": [
+                "D1"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 1.8246,
+            "inputPins": [],
+            "outputPinNames": [
+                "D2"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 1.2618,
+            "inputPins": [],
+            "outputPinNames": [
+                "D3"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 0.6641,
+            "inputPins": [],
+            "outputPinNames": [
+                "D4"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": -0.2816,
+            "inputPins": [],
+            "outputPinNames": [
+                "STORE"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": -1.0301,
+            "inputPins": [],
+            "outputPinNames": [
+                "CLOCK"
+            ]
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": 1.6564,
+            "inputPins": [
+                {
+                    "name": "OUT1",
+                    "parentChipIndex": 10,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": []
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": 1.0587,
+            "inputPins": [
+                {
+                    "name": "OUT2",
+                    "parentChipIndex": 11,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": []
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": 0.4088,
+            "inputPins": [
+                {
+                    "name": "OUT3",
+                    "parentChipIndex": 12,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": []
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": -0.415,
+            "inputPins": [
+                {
+                    "name": "OUT4",
+                    "parentChipIndex": 13,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": []
+        },
+        {
+            "chipName": "REGISTER",
+            "posX": -0.2785,
+            "posY": 2.9329,
+            "inputPins": [
+                {
+                    "name": "DATA ",
+                    "parentChipIndex": 0,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "STORE",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "CLOCK",
+                    "parentChipIndex": 5,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "OUTPUT"
+            ]
+        },
+        {
+            "chipName": "REGISTER",
+            "posX": -0.1624,
+            "posY": 1.7666,
+            "inputPins": [
+                {
+                    "name": "DATA ",
+                    "parentChipIndex": 1,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "STORE",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "CLOCK",
+                    "parentChipIndex": 5,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "OUTPUT"
+            ]
+        },
+        {
+            "chipName": "REGISTER",
+            "posX": -0.1798,
+            "posY": 0.5829,
+            "inputPins": [
+                {
+                    "name": "DATA ",
+                    "parentChipIndex": 2,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "STORE",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "CLOCK",
+                    "parentChipIndex": 5,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "OUTPUT"
+            ]
+        },
+        {
+            "chipName": "REGISTER",
+            "posX": -0.116,
+            "posY": -0.9546,
+            "inputPins": [
+                {
+                    "name": "DATA ",
+                    "parentChipIndex": 3,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "STORE",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "CLOCK",
+                    "parentChipIndex": 5,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "OUTPUT"
+            ]
+        }
+    ]
+}
